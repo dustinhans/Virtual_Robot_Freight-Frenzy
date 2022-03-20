@@ -20,7 +20,9 @@ public class EncBot {
     private final double ENCODER_TICKS_PER_REVOLUTION = 1120;
     private final double ENCODER_WHEEL_CIRCUMFERENCE = Math.PI * 2.0;
     private final double ENCODER_WIDTH = 12.0;
-
+    private final int dummy;
+    private final int dummy2;
+        
     public final DcMotorEx[] motors = new DcMotorEx[4]; //back_left, front_left, front_right, back_right
     public final DcMotorEx[] encoders = new DcMotorEx[3]; //right, left, X
 
