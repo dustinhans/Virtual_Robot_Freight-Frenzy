@@ -18,8 +18,9 @@ public class FreightBotDemo extends LinearOpMode {
     BNO055IMU imu;
     DistanceSensor frontDistance, leftDistance, rightDistance, backDistance;
     ColorSensor colorSensor;
-
     ColorSensor colorSensor2;
+    ColorSensor colorSensor3;
+
     public void runOpMode(){
         m1 = hardwareMap.get(DcMotorEx.class, "back_left_motor");
         m2 = hardwareMap.get(DcMotorEx.class, "front_left_motor");
